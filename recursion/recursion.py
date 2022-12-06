@@ -1,9 +1,10 @@
 def fac(n):
-  if n == 0:
-    return 1
-  else:
-    return n*fac(n-1)
+    if n == 0:
+        return 1
+    else:
+        return n*fac(n-1)
 
-n=10
-ans=fac(n)
+
+n = 10
+ans = fac(n)
 print(ans)
